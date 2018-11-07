@@ -1,3 +1,4 @@
+filetype plugin on
 let g:wordUnderCursor = expand("<cword>")
 let g:JaveComplete_AutoStartServer =1 
 let g:currentLine   = getline(".")
@@ -17,7 +18,5 @@ set nu
 set nocompatible
 set hlsearch
 set mouse=nicr
-set foldmethod=syntax
-set ruler
-set rulerformat=%55(%{strftime('%a\ %b\ %e\ %I:%M\ %p')}\ %5l,%-6(%c%V%)\ %P%)
-
+"set foldmethod=syntax
+set syntax=on

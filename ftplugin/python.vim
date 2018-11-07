@@ -1,2 +1,2 @@
 
-autocmd setlocal omnifunc=pythoncomplete#Complete
+"autocmd setlocal omnifunc=pythoncomplete#Complete

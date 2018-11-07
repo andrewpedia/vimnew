@@ -37,8 +37,8 @@ function! NERDTreeFtFlagsListener(event)
     endif
 
 endfunction
-call g:NERDTreePathNotifier.AddListener("init", "NERDTreeFtFlagsListener")
-call g:NERDTreePathNotifier.AddListener("refreshFlags", "NERDTreeFtFlagsListener")
+"call g:NERDTreePathNotifier.AddListener("init", "NERDTreeFtFlagsListener")
+"call g:NERDTreePathNotifier.AddListener("refreshFlags", "NERDTreeFtFlagsListener")
 
 function! s:IsClassByStr(path)
     call system('grep -q ''^[ \t]*class '' ' . a:path)
