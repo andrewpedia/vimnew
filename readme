@@ -1,0 +1,6 @@
+add submodule steps:
+1:git clone http://github.com/xxx/xxx.git bundle/xxx
+2.git submodule add http://github.com/xxx/xxx.git bundle/xxx
+3.git status
+4.git commit -m "add new submodule"
+5.git push -u origin master
