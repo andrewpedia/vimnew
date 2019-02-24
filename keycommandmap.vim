@@ -1,6 +1,6 @@
 "let NERDTreeMapOpenInTab='<ENTER>'
 
-nnoremap gd :JavaSearch -p <c-r>=expand("<cword>")<cr>  -x declarations<CR>"
+nnoremap gc :JavaSearch -p <c-r>=expand("<cword>")<cr>  -x declarations<CR>"
 nnoremap gm :JavaSearch -p <c-r>=expand("<cword>")<cr>  -x implementors<CR>"
 nnoremap ga :JavaSearch -p <c-r>=expand("<cword>")<cr>  -x all<CR>"
 "nnoremap <c-LeftMouse> :JavaSearch -p <c-r>=expand("<cword>")<cr>  -x declarations<CR>"

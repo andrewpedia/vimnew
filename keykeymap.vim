@@ -8,16 +8,16 @@ nnoremap k <UP>
 nnoremap j <DOWN>
 nnoremap <leader>o A;<ESC>o
 " Go to tab by UPnumber
-nnoremap 11 1gt 
-nnoremap 22 2gt 
-nnoremap 33 3gt 
-noremap  44 4gt 
-noremap  55 5gt 
-noremap  66 6gt 
-noremap  77 7gt 
-noremap  88 8gt 
-noremap  99 9gt 
-
+"nnoremap 11 1gt 
+"nnoremap 22 2gt 
+"nnoremap 33 3gt 
+"noremap  44 4gt 
+"noremap  55 5gt 
+"noremap  66 6gt 
+"noremap  77 7gt 
+"noremap  88 8gt 
+"noremap  99 9gt 
+"
 inoremap <C-d>d <ESC>dd
 
 "map h <INSERT>

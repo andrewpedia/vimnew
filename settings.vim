@@ -20,3 +20,8 @@ set hlsearch
 set mouse=nicr
 "set foldmethod=syntax
 set syntax=on
+set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+set termencoding=utf-8
+set encoding=utf-8
+let g:NERDTreeNodeDelimiter = "\u00a0"
+set tags+=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src/tags
