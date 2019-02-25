@@ -25,4 +25,3 @@ map <leader>w <C-w>w
 map <leader>q za
 map <leader>j }
 map <leader>k {
-nnoremap <space> za

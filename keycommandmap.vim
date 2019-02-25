@@ -6,12 +6,12 @@ nnoremap ga :JavaSearch -p <c-r>=expand("<cword>")<cr>  -x all<CR>"
 "nnoremap <c-LeftMouse> :JavaSearch -p <c-r>=expand("<cword>")<cr>  -x declarations<CR>"
 imap jk <ESC>
 imap jj <ESC>
-inoremap <C-i>  <ESC>:JCimportAdd<CR>
+"inoremap <C-i>  <ESC>:JCimportAdd<CR>
 map <leader>t :Tagbar<CR>
 "map <C-m> :TlistOpen<CR>
-map <C-l> :NERDTreeToggle<cr>
+map <leader>l :NERDTreeToggle<cr>
 nnoremap <leader>sv :source $MYVIMRC<CR>     
-map <C-o> :NERDTreeFind %<CR>
+map <C-f> :NERDTreeFind %<CR>
 map <F4> :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR>
 map <ALT-a> :echo "You just pressed Alt-a!"<CR>
 " Unmap the arrow keys
