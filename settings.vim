@@ -25,3 +25,7 @@ set termencoding=utf-8
 set encoding=utf-8
 let g:NERDTreeNodeDelimiter = "\u00a0"
 set tags+=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src/tags
+
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"

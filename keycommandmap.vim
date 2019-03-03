@@ -7,7 +7,7 @@ nnoremap ga :JavaSearch -p <c-r>=expand("<cword>")<cr>  -x all<CR>"
 imap jk <ESC>
 imap jj <ESC>
 "inoremap <C-i>  <ESC>:JCimportAdd<CR>
-map <leader>t :Tagbar<CR>
+map <leader>t :TlistToggle<CR>
 "map <C-m> :TlistOpen<CR>
 map <leader>l :NERDTreeToggle<cr>
 nnoremap <leader>sv :source $MYVIMRC<CR>     
@@ -106,3 +106,5 @@ autocmd FileType twig imap <leader>a[ [{[  ]}]<ESC>Bhi
 
 nmap ]h <Plug>GitGutterNextHunk
 nmap [h <Plug>GitGutterPrevHunk
+
+nnoremap <leader>gt :YcmCompleter GoTo<CR>

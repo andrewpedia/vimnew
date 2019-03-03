@@ -25,3 +25,13 @@ map <leader>w <C-w>w
 map <leader>q za
 map <leader>j }
 map <leader>k {
+
+"command line navigations
+cnoremap <C-a> <Home>
+cnoremap <C-d> <End>
+cnoremap <C-y> <Up>
+cnoremap <C-e> <Down>
+cnoremap <C-b> <Left>
+cnoremap <C-f> <Right>
+cnoremap <M-b> <S-Left>
+cnoremap <M-f> <S-Right>
