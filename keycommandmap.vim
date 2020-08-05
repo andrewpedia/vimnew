@@ -15,19 +15,19 @@ map <C-f> :NERDTreeFind %<CR>
 map <F4> :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR>
 map <ALT-a> :echo "You just pressed Alt-a!"<CR>
 " Unmap the arrow keys
-no <down> ddp
-no <left> <Nop>
-no <right> <Nop>
-no <up> ddkP
-ino <down> <Nop>
-ino <left> <Nop>
-ino <right> <Nop>
-ino <up> <Nop>
-vno <down> <Nop>
-vno <left> <Nop>
-vno <right> <Nop>
-vno <up> <Nop>
-
+"no <down> ddp
+"no <left> <Nop>
+"no <right> <Nop>
+"no <up> ddkP
+"ino <down> <Nop>
+"ino <left> <Nop>
+"ino <right> <Nop>
+"ino <up> <Nop>
+"vno <down> <Nop>
+"vno <left> <Nop>
+"vno <right> <Nop>
+"vno <up> <Nop>
+"
 "============== Custom Mappings ===============
 " general mapping
 nmap <C-Tab> :tabnext<CR>

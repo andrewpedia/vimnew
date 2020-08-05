@@ -4,8 +4,8 @@ nnoremap gn gt
 nnoremap gp gT
 nnoremap tt <S-t>
 inoremap qq <Esc>
-nnoremap k <UP>
-nnoremap j <DOWN>
+"nnoremap k <UP>
+"nnoremap j <DOWN>
 nnoremap <leader>o A;<ESC>o
 " Go to tab by UPnumber
 "nnoremap 11 1gt 

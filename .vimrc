@@ -1,10 +1,10 @@
-set runtimepath+=~/.myvimnew
+set runtimepath+=~/.vimnew
 
-source ~/.myvimnew/base.vim
-source ~/.myvimnew/functions.vim
-source ~/.myvimnew/keykeymap.vim
-source ~/.myvimnew/keycommandmap.vim
-source ~/.myvimnew/settings.vim
+source ~/.vimnew/base.vim
+source ~/.vimnew/functions.vim
+source ~/.vimnew/keykeymap.vim
+source ~/.vimnew/keycommandmap.vim
+source ~/.vimnew/settings.vim
 
 "colorscheme codedark
 "let g:airline_theme = 'codedark'
