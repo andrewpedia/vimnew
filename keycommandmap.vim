@@ -5,7 +5,6 @@ nnoremap gm :JavaSearch -p <c-r>=expand("<cword>")<cr>  -x implementors<CR>"
 nnoremap ga :JavaSearch -p <c-r>=expand("<cword>")<cr>  -x all<CR>"
 "nnoremap <c-LeftMouse> :JavaSearch -p <c-r>=expand("<cword>")<cr>  -x declarations<CR>"
 imap jk <ESC>
-imap jj <ESC>
 "inoremap <C-i>  <ESC>:JCimportAdd<CR>
 map <leader>t :TlistToggle<CR>
 "map <C-m> :TlistOpen<CR>
