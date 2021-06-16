@@ -1,3 +1,4 @@
+set tags=tags;/
 filetype plugin on
 let g:wordUnderCursor = expand("<cword>")
 let g:JaveComplete_AutoStartServer =1 
