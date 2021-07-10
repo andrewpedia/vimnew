@@ -3,7 +3,6 @@
 nnoremap gn gt
 nnoremap gp gT
 nnoremap tt <S-t>
-inoremap qq <Esc>
 "nnoremap k <UP>
 "nnoremap j <DOWN>
 nnoremap <leader>o A;<ESC>o
