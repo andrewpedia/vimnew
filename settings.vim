@@ -1,3 +1,4 @@
+set tags=tags;/
 filetype plugin on
 filetype plugin indent on
 let g:wordUnderCursor = expand("<cword>")
